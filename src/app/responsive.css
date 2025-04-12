@@ -1,0 +1,84 @@
+/* Styles spécifiques pour la responsivité */
+
+/* Styles pour les écrans mobiles (jusqu'à 640px) */
+@media (max-width: 640px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  h1 {
+    font-size: 1.75rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  .map-container {
+    height: 250px;
+  }
+  
+  /* Ajustements pour la navigation */
+  header nav ul {
+    flex-direction: column;
+    padding: 0.5rem 0;
+  }
+  
+  header nav ul li {
+    margin: 0.25rem 0;
+  }
+  
+  /* Ajustements pour les onglets de la fiche médicale */
+  .fiche-medicale-tabs {
+    flex-wrap: wrap;
+  }
+  
+  .fiche-medicale-tabs button {
+    padding: 0.5rem;
+    font-size: 0.75rem;
+  }
+}
+
+/* Styles pour les tablettes (641px à 1024px) */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  
+  .map-container {
+    height: 350px;
+  }
+}
+
+/* Ajustements pour les écrans tactiles */
+@media (hover: none) {
+  /* Augmenter la taille des zones cliquables pour les écrans tactiles */
+  button, 
+  a,
+  .clickable {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Espacement supplémentaire pour les éléments interactifs */
+  .interactive-element {
+    margin: 0.5rem 0;
+  }
+}
+
+/* Ajustements pour l'orientation portrait/paysage sur mobile */
+@media (max-width: 640px) and (orientation: landscape) {
+  .map-container {
+    height: 200px;
+  }
+}
+
+/* Ajustements pour les grands écrans */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
