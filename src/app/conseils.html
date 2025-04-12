@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conseils Médicaux en Vidéo - KENEYA FERE</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="public/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Header avec nouvelle navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <img src="public/images/logo.png" alt="KENEYA FERE Logo">
+                    <span>KENEYA FERE</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="repertoire.html">Répertoire</a></li>
+                    <li><a href="fiche-medicale.html">Fiche Médicale</a></li>
+                    <li><a href="conseils.html" class="active">Conseils</a></li>
+                    <li><a href="trousse-secours.html">Trousse de Secours</a></li>
+                </ul>
+                <button class="mobile-menu-btn">☰</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero section -->
+    <section class="hero" style="background: linear-gradient(135deg, #3B75B4 0%, #1EBEB4 100%);">
+        <div class="container">
+            <h1>Conseils Médicaux en Vidéo</h1>
+            <p>Accédez à des conseils de santé fiables à travers des vidéos éducatives réalisées par des professionnels de la santé.</p>
+        </div>
+    </section>
+
+    <!-- Search and Categories Section -->
+    <section class="search-section">
+        <div class="container">
+            <div class="card">
+                <div class="search-filters">
+                    <div class="form-group">
+                        <label class="form-label">Rechercher des conseils</label>
+                        <input type="text" class="form-input" placeholder="Ex: diabète, grossesse, nutrition...">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Catégorie</label>
+                        <select class="form-select">
+                            <option value="all">Toutes les catégories</option>
+                            <option value="nutrition">Nutrition</option>
+                            <option value="maternite">Maternité et enfance</option>
+                            <option value="chronique">Maladies chroniques</option>
+                            <option value="prevention">Prévention</option>
+                            <option value="hygiene">Hygiène</option>
+                        </select>
+                    </div>
+                    <button class="btn">
+                        <span class="icon">🔍</span> Rechercher
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Videos Section -->
+    <section class="featured-section">
+        <div class="container">
+            <h2 class="section-title">Vidéos recommandées</h2>
+            
+            <div class="featured-video">
+                <div class="video-container">
+                    <div class="video-placeholder">
+                        <img src="public/images/video-placeholder.jpg" alt="Vidéo sur la prévention du paludisme">
+                        <div class="play-button">▶</div>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <h3>Prévention du paludisme : les gestes essentiels</h3>
+                    <p class="video-meta">
+                        <span class="video-author">Dr. Aminata Diallo</span>
+                        <span class="video-date">Publié le 10 mars 2025</span>
+                        <span class="video-duration">12:45</span>
+                    </p>
+                    <p class="video-description">
+                        Dans cette vidéo, le Dr. Aminata Diallo explique les mesures préventives essentielles contre le paludisme, une maladie qui touche des millions de personnes en Afrique. Découvrez comment protéger votre famille avec des gestes simples mais efficaces.
+                    </p>
+                    <div class="video-tags">
+                        <span class="tag">Prévention</span>
+                        <span class="tag">Paludisme</span>
+                        <span class="tag">Santé familiale</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Categories Section -->
+    <section class="categories-section">
+        <div class="container">
+            <h2 class="section-title">Parcourir par catégorie</h2>
+            
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-icon">🍎</div>
+                    <h3>Nutrition</h3>
+                    <p>Conseils pour une alimentation saine et équilibrée adaptée au contexte local.</p>
+                    <a href="#" class="btn btn-outline">Voir les vidéos</a>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">👶</div>
+                    <h3>Maternité et enfance</h3>
+                    <p>Conseils pour les femmes enceintes et les soins aux nouveau-nés et enfants.</p>
+                    <a href="#" class="btn btn-outline">Voir les vidéos</a>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">💊</div>
+                    <h3>Maladies chroniques</h3>
+                    <p>Gestion du diabète, de l'hypertension et d'autres maladies chroniques.</p>
+                    <a href="#" class="btn btn-outline">Voir les vidéos</a>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">🦟</div>
+                    <h3>Prévention</h3>
+                    <p>Mesures préventives contre les maladies courantes comme le paludisme.</p>
+                    <a href="#" class="btn btn-outline">Voir les vidéos</a>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">🧼</div>
+                    <h3>Hygiène</h3>
+                    <p>Pratiques d'hygiène personnelle et communautaire pour prévenir les maladies.</p>
+                    <a href="#" class="btn btn-outline">Voir les vidéos</a>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">💧</div>
+                    <h3>Eau et assainissement</h3>
+                    <p>Conseils sur l'accès à l'eau potable et les pratiques d'assainissement.</p>
+                    <a href="#" class="btn btn-outline">Voir les vidéos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Videos Section -->
+    <section class="recent-videos-section">
+        <div class="container">
+            <h2 class="section-title">Vidéos récentes</h2>
+            
+            <div class="videos-grid">
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <img src="public/images/video-thumb-1.jpg" alt="Vidéo sur la nutrition">
+                        <div class="video-duration">08:32</div>
+                        <div class="play-button-small">▶</div>
+                    </div>
+                    <div class="video-card-content">
+                        <h3>Alimentation équilibrée avec les produits locaux</h3>
+                        <p class="video-meta">
+                            <span class="video-author">Dr. Oumar Traoré</span>
+                            <span class="video-date">5 avril 2025</span>
+                        </p>
+                        <div class="video-tags">
+                            <span class="tag">Nutrition</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <img src="public/images/video-thumb-2.jpg" alt="Vidéo sur le diabète">
+                        <div class="video-duration">15:47</div>
+                        <div class="play-button-small">▶</div>
+                    </div>
+                    <div class="video-card-content">
+                        <h3>Vivre avec le diabète : conseils pratiques</h3>
+                        <p class="video-meta">
+                            <span class="video-author">Dr. Fatoumata Koné</span>
+                            <span class="video-date">28 mars 2025</span>
+                        </p>
+                        <div class="video-tags">
+                            <span class="tag">Maladies chroniques</span>
+                            <span class="tag">Diabète</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <img src="public/images/video-thumb-3.jpg" alt="Vidéo sur la grossesse">
+                        <div class="video-duration">10:15</div>
+                        <div class="play-button-small">▶</div>
+                    </div>
+                    <div class="video-card-content">
+                        <h3>Suivi prénatal : pourquoi est-ce important ?</h3>
+                        <p class="video-meta">
+                            <span class="video-author">Dr. Aminata Diallo</span>
+                            <span class="video-date">20 mars 2025</span>
+                        </p>
+                        <div class="video-tags">
+                            <span class="tag">Maternité</span>
+                            <span class="tag">Grossesse</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <img src="public/images/video-thumb-4.jpg" alt="Vidéo sur l'hygiène">
+                        <div class="video-duration">07:22</div>
+                        <div class="play-button-small">▶</div>
+                    </div>
+                    <div class="video-card-content">
+                        <h3>Hygiène des mains : un geste simple qui sauve des vies</h3>
+                        <p class="video-meta">
+                            <span class="video-author">Dr. Ibrahim Coulibaly</span>
+                            <span class="video-date">15 mars 2025</span>
+                        </p>
+                        <div class="video-tags">
+                            <span class="tag">Hygiène</span>
+                            <span class="tag">Prévention</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4">
+                <a href="#" class="btn">Voir plus de vidéos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h3 class="footer-title">KENEYA FERE</h3>
+                    <p>Votre compagnon de santé numérique, accessible partout et à tout moment.</p>
+                </div>
+                
+                <div>
+                    <h3 class="footer-title">Liens rapides</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="repertoire.html">Répertoire</a></li>
+                        <li><a href="fiche-medicale.html">Fiche Médicale</a></li>
+                        <li><a href="conseils.html">Conseils</a></li>
+                        <li><a href="trousse-secours.html">Trousse de Secours</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="footer-title">Contact</h3>
+                    <ul class="footer-links">
+                        <li>Email: contact@keneyafere.com</li>
+                        <li>Téléphone: +223 XX XX XX XX</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 KENEYA FERE. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Script pour le menu mobile
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('show');
+        });
+        
+        // Simulation de lecture vidéo
+        document.querySelectorAll('.play-button, .play-button-small').forEach(button => {
+            button.addEventListener('click', function() {
+                alert('Fonctionnalité de lecture vidéo en cours d\'implémentation.');
+            });
+        });
+    </script>
+</body>
+</html>
